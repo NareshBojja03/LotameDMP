@@ -14,7 +14,7 @@ let package = Package(
             dependencies: [],
             path: "Sources/LotameDMP"),
         .testTarget(
-            name: "EmitterKitTests",
+            name: "LotameDMPTests",
             dependencies: ["LotameDMP"],
             path: "Tests/LotameDMPTests"),
     ]
