@@ -2,7 +2,11 @@
 import PackageDescription
 let package = Package(
     name: "LotameDMP",
-    products: [
+    defaultLocalization: "en",
+    platforms: [
+        .iOS(.v10)
+    ],
+        products: [
         .library(
             name: "LotameDMP",
             targets: ["LotameDMP"]),
