@@ -3,9 +3,6 @@ import PackageDescription
 let package = Package(
     name: "LotameDMP",
     defaultLocalization: "en",
-    platforms: [
-        .iOS(.v10)
-    ],
         products: [
         .library(
             name: "LotameDMP",
